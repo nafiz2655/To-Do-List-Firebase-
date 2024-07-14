@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register\naccount"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:fontFamily="@font/font1"
+            android:layout_marginBottom="50dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:text="Email"
+            android:textStyle="normal"
+            android:fontFamily="@font/font1"
+            android:layout_marginTop="5dp"
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_shade"
+            android:textStyle="normal"
+            android:textSize="22dp"
+            android:fontFamily="@font/font1"
+            android:paddingTop="15dp"
+            android:text="nafiz2955@gmail.com"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Type Your Email"
+            android:inputType="textEmailAddress"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:fontFamily="@font/font1"
+
+            android:textColor="@color/black"
+            android:text="Password"
+            android:textStyle="normal"
+            android:layout_marginTop="15dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_shade"
+                android:textStyle="normal"
+                android:textSize="22dp"
+                android:fontFamily="@font/font1"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:hint="Type Your Password"
+                android:inputType="textPassword"
+                android:text="123456456789"
+                />
+            <ImageView
+                android:id="@+id/hight_pass"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/hide"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="10dp"
+
+                />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:fontFamily="@font/font1"
+            android:textColor="@color/black"
+            android:text="Continue Password"
+            android:textStyle="normal"
+            android:layout_marginTop="15dp"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <EditText
+                android:id="@+id/con_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_shade"
+                android:textStyle="normal"
+                android:textSize="22dp"
+                android:fontFamily="@font/font1"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:hint="Type Your Password again"
+                android:inputType="textPassword"
+                android:text="123456456789"
+
+                />
+
+            <ImageView
+                android:id="@+id/hight_con_pass"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/hide"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="10dp"
+
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="7dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#AB000000"
+                android:text="If you have an account, "
+                android:textStyle="normal"
+                android:fontFamily="@font/font1"
+                />
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#2196F3"
+                android:text=" please Log In"
+                android:textStyle="normal"
+                android:fontFamily="@font/font1"
+                />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Register"
+            android:background="@drawable/sine"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/font1"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            />
+
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading_hand" />
+
+</RelativeLayout>

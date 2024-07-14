@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/item_shed"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+        <TextView
+            android:id="@+id/todoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello world"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello world"
+            android:textSize="16sp"
+            android:textColor="#8F000000"
+            android:layout_marginLeft="5dp"
+            android:gravity="right"
+            />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="20dp"
+        android:layout_height="20sp"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+
+
+</RelativeLayout>
